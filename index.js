@@ -17,3 +17,4 @@ if (userInput.validate(userInput) === true){
 
   console.log(addNote);
 } else { console.log('ERROR! Please insert a proper command!') }
+console.log(userInput.validate());
